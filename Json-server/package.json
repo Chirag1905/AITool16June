@@ -1,0 +1,27 @@
+{
+  "name": "the-experimental-brain-json-server",
+  "version": "1.0.0",
+  "description": "A Node.js project with JSON Server",
+  "main": "server.js",
+  "scripts": {
+    "start": "nodemon server.js",
+    "build": "echo 'No build process required for JSON Server'"
+  },
+  "dependencies": {
+    "express": "^4.17.1",
+    "json-server": "^0.17.3"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.16.0",
+    "@babel/preset-env": "^7.16.4",
+    "babel-loader": "^8.2.3",
+    "file-loader": "^6.2.0"
+  },
+  "babel": {
+    "presets": [
+      "@babel/preset-env"
+    ]
+  },
+  "author": "",
+  "license": "ISC"
+}

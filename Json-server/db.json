@@ -1,0 +1,272 @@
+{
+  "users": [
+    {
+      "role": "Admin",
+      "email": "hitesh@gmail.com",
+      "password": "123",
+      "id": "2337"
+    },
+    {
+      "id": "aba5",
+      "email": "chirag@gmail.com",
+      "password": "123",
+      "role": "Admin"
+    },
+    {
+      "email": "test@gmail.com",
+      "password": "123",
+      "role": "User",
+      "id": "GvbKPTi"
+    },
+    {
+      "schoolId": "14",
+      "schoolName": "df",
+      "email": "saloni@test.com",
+      "password": "123",
+      "role": "User",
+      "id": "uTz8Rhp"
+    }
+  ],
+  "api": [
+    {
+      "apiKey": "",
+      "id": 1
+    }
+  ],
+  "sessions": [
+    {
+      "conversation": [],
+      "current": 0,
+      "search_text": "",
+      "selected_grade": "",
+      "selected_attachment": "",
+      "chat": [
+        {
+          "messages": [
+            {
+              "role": "user",
+              "content": "hello hitesh",
+              "id": 1718869192591,
+              "sentTime": 1718869193182
+            },
+            {
+              "content": "Hello! How can I assist you today?",
+              "role": "assistant",
+              "sentTime": 1718869194548,
+              "id": 1718869194548
+            },
+            {
+              "role": "user",
+              "content": "200 lines on earth  ",
+              "id": 1718871045962,
+              "sentTime": 1718871046634
+            },
+            {
+              "content": "Writing 200 lines specifically about Earth can cover a vast array of topics, given the complexity and richness of our planet. Here, I'll provide a detailed exploration that touches on various aspects of Earth, including its physical characteristics, its place in the solar system, the environment, and its ecosystems. Feel free to specify if you would like a deep dive into a particular aspect of Earth!\n\n1. **Introduction to Earth**: Earth is the third planet from the Sun and the only astronomical object known to harbor life.\n2. It's located in the habitable zone of the solar system, which allows for the right temperatures for liquid water to exist.\n3. Earth formed approximately ",
+              "role": "assistant",
+              "sentTime": 1718871051823,
+              "id": 1718871051823
+            }
+          ]
+        }
+      ],
+      "chats": [
+        {
+          "title": "Generate useLocalStorage",
+          "id": 321123123,
+          "ct": "2023-12-12",
+          "messages": [
+            {
+              "content": "Hello, I'm The Experimental Brain! Ask me anything!",
+              "sentTime": "1682827639323",
+              "role": "user",
+              "id": 123
+            }
+          ]
+        },
+        {
+          "title": "Generate a React hooks  useLocalStorage",
+          "ct": "2023-12-12",
+          "id": 92839,
+          "messages": [
+            {
+              "id": 1682511616366,
+              "sentTime": "1682827639313",
+              "role": "user",
+              "content": "Write a Modal component in React\n"
+            },
+            {
+              "id": 1682511616366,
+              "sentTime": "1681827632313",
+              "role": "assistant",
+              "content": "Write a Modal component in React：\n\n```jsx\nimport React, { useState } from 'react';\n\nconst Modal = ({ isOpen, onClose, children }) => {\n  const [isModalOpen, setIsModalOpen] = useState(isOpen);\n\n  const handleClose = () => {\n    setIsModalOpen(false);\n    onClose();\n  };\n\n  return (\n    <>\n      {isModalOpen && (\n        <div className=\"modal\">\n          <div className=\"modal-content\">\n            <span className=\"close\" onClick={handleClose}>\n              &times;\n            </span>\n            {children}\n          </div>\n        </div>\n      )}\n    </>\n  );\n};\n\nexport default Modal;\n```\n\nIn this component, we use the useState hook to track whether the modal is open. When the isOpen prop changes, we update the state to reflect the new value. \n\nWe also define a function called handleClose, which will close the modal and call the onClose callback function (if there is one). \n\nFinally, we return a div element containing the content of the modal box, and decide whether to render the element based on the isModalOpen state."
+            }
+          ]
+        },
+        {
+          "title": "ex",
+          "ct": "2032-12-23",
+          "id": 2381923,
+          "messages": []
+        }
+      ],
+      "currentChat": 0,
+      "options": {
+        "account": {
+          "name": "CHAT——AI",
+          "avatar": ""
+        },
+        "general": {
+          "language": "English",
+          "theme": "light",
+          "command": "ENTER",
+          "size": "normal"
+        },
+        "openai": {
+          "baseUrl": "",
+          "organizationId": "",
+          "temperature": 1,
+          "model": "gpt-4-turbo",
+          "apiKey": "",
+          "max_tokens": 2048,
+          "n": 1,
+          "stream": true
+        }
+      },
+      "is": {
+        "typeing": true,
+        "config": false,
+        "fullScreen": true,
+        "sidebar": false,
+        "inputing": true,
+        "thinking": false,
+        "apps": true,
+        "ChatRegister": false,
+        "ChatApi": false
+      },
+      "typeingMessage": {
+        "content": ""
+      },
+      "version": "0.1.0",
+      "cotent": "",
+      "id": "2337"
+    },
+    {
+      "conversation": [],
+      "current": 0,
+      "search_text": "",
+      "selected_grade": "",
+      "selected_attachment": "",
+      "chat": [
+        {
+          "messages": [
+            {
+              "role": "user",
+              "content": "hello  ",
+              "id": 1730809800630,
+              "sentTime": 1730809800855
+            },
+            {
+              "content": "Hello! How can I assist you today?",
+              "role": "assistant",
+              "sentTime": 1730809802596,
+              "id": 1730809802596
+            },
+            {
+              "role": "user",
+              "content": "i'm chirag  ",
+              "id": 1730809807238,
+              "sentTime": 1730809807599
+            },
+            {
+              "content": "Hello Chirag! Nice to meet you. How can I help you today?",
+              "role": "assistant",
+              "sentTime": 1730809808771,
+              "id": 1730809808771
+            }
+          ]
+        }
+      ],
+      "chats": [
+        {
+          "title": "Generate useLocalStorage",
+          "id": 321123123,
+          "ct": "2023-12-12",
+          "messages": [
+            {
+              "content": "Hello, I'm The Experimental Brain! Ask me anything!",
+              "sentTime": "1682827639323",
+              "role": "user",
+              "id": 123
+            }
+          ]
+        },
+        {
+          "title": "Generate a React hooks  useLocalStorage",
+          "ct": "2023-12-12",
+          "id": 92839,
+          "messages": [
+            {
+              "id": 1682511616366,
+              "sentTime": "1682827639313",
+              "role": "user",
+              "content": "Write a Modal component in React\n"
+            },
+            {
+              "id": 1682511616366,
+              "sentTime": "1681827632313",
+              "role": "assistant",
+              "content": "Write a Modal component in React：\n\n```jsx\nimport React, { useState } from 'react';\n\nconst Modal = ({ isOpen, onClose, children }) => {\n  const [isModalOpen, setIsModalOpen] = useState(isOpen);\n\n  const handleClose = () => {\n    setIsModalOpen(false);\n    onClose();\n  };\n\n  return (\n    <>\n      {isModalOpen && (\n        <div className=\"modal\">\n          <div className=\"modal-content\">\n            <span className=\"close\" onClick={handleClose}>\n              &times;\n            </span>\n            {children}\n          </div>\n        </div>\n      )}\n    </>\n  );\n};\n\nexport default Modal;\n```\n\nIn this component, we use the useState hook to track whether the modal is open. When the isOpen prop changes, we update the state to reflect the new value. \n\nWe also define a function called handleClose, which will close the modal and call the onClose callback function (if there is one). \n\nFinally, we return a div element containing the content of the modal box, and decide whether to render the element based on the isModalOpen state."
+            }
+          ]
+        },
+        {
+          "title": "ex",
+          "ct": "2032-12-23",
+          "id": 2381923,
+          "messages": []
+        }
+      ],
+      "currentChat": 0,
+      "options": {
+        "account": {
+          "name": "CHAT——AI",
+          "avatar": ""
+        },
+        "general": {
+          "language": "English",
+          "theme": "dark",
+          "command": "ENTER",
+          "size": "normal"
+        },
+        "openai": {
+          "baseUrl": "",
+          "organizationId": "",
+          "temperature": 1,
+          "model": "gpt-4-turbo",
+          "apiKey": "",
+          "max_tokens": 2048,
+          "n": 1,
+          "stream": true
+        }
+      },
+      "is": {
+        "typeing": true,
+        "config": false,
+        "fullScreen": true,
+        "sidebar": false,
+        "inputing": false,
+        "thinking": false,
+        "apps": true,
+        "ChatRegister": false,
+        "ChatApi": false
+      },
+      "typeingMessage": {
+        "content": ""
+      },
+      "version": "0.1.0",
+      "cotent": "",
+      "id": "aba5"
+    }
+  ]
+}

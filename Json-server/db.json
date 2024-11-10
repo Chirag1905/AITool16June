@@ -2,7 +2,7 @@
   "users": [
     {
       "role": "Admin",
-      "email": "hitesh@gmail.com",
+      "email": "utkarsh@gmail.com",
       "password": "123",
       "id": "2337"
     },
@@ -14,7 +14,10 @@
     }
   ],
   "api": [
-  
+    {
+      "id": 1,
+      "apiKey": "fdfffdfdf"
+    }
   ],
   "sessions": [
     {

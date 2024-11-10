@@ -9,6 +9,7 @@ import './style/chatlogin.less'
 export default function ChatLogin() {
     const apiUrl = import.meta.env.VITE_API_BASE_URL;
     const [showChat, setShowChat] = useState(localStorage.getItem("userData") ? localStorage.getItem("userData") : false);
+    const [schoolID, setSchoolID] = useState("");
     const [email, setEmail] = useState("");
     const [password, setPassword] = useState("");
 
@@ -29,7 +30,7 @@ export default function ChatLogin() {
             }
 
             // Fetch existing sessions
-            const existingSessionsResponse = await axios.get(`http://localhost:8000/sessions`, {
+            const existingSessionsResponse = await axios.get(`${apiUrl}/sessions`, {
                 headers: { "Content-Type": "application/json" }
             });
 
@@ -42,8 +43,8 @@ export default function ChatLogin() {
             }
 
             // Create a new session
-            const sessionResponse = await axios.post(`http://localhost:8000/sessions`, {
-                "id": userInfo.id, 
+            const sessionResponse = await axios.post(`${apiUrl}/sessions`, {
+                "id": userInfo.id,
                 "chat": [],
                 "chats": [
                     {
@@ -141,33 +142,144 @@ export default function ChatLogin() {
         }
     };
 
+    // const handleSubmit = async (e) => {
+    //     e.preventDefault();
+    //     try {
+    //         // http://192.46.208.144:8080/experimentalbrain/api/v1/applogin?schooltenant=techveindemo&uname=techattapp&upsswd=%23tech@app$2023
+    //         const response = await axios.get(`${apiUrl}/users`, {
+    //             headers: { "Content-Type": "application/json" },
+    //         });
+    //         if (response?.status !== 200) {
+    //             throw new Error("Failed to fetch user data");
+    //         }
+    //         const users = response.data;
+    //         const user = users.find((user) => user.email === email);
+    //         if (!user) {
+    //             toast.warn("User not found");
+    //             return;
+    //         }
+    //         if (user.password !== password) {
+    //             toast.error("Incorrect password");
+    //             return;
+    //         }
+    //         localStorage.setItem("userData", JSON.stringify(user));
+    //         toast.success("Login successful");
+    //         await handleSession(); // Ensure session is handled before showing chat
+    //         setShowChat(true);
+    //     } catch (error) {
+    //         toast.error(`Login error: ${error.message}`);
+    //     }
+    // };
+
+    // const handleSubmit = async (e) => {
+    //     e.preventDefault();
+    //     try {
+    //         // First API call
+    //         const firstApiResponse = await axios.get(
+    //                 `http://192.46.208.144:8080/experimentalbrain/api/v1/applogin?schooltenant=${schoolID}&uname=${email}&upsswd=${password}`
+    //         );
+
+    //         if (firstApiResponse?.status === 200) {
+    //             // If first API returns 200, set showChat to true and exit function
+    //             setShowChat(true);
+    //             toast.success("Login successful via first API");
+    //             return;
+    //         }
+    //     } catch (error) {
+    //         // If there's an error with the first API or status is not 200, proceed to the second API
+    //         toast.warn("First API failed, checking with second API...");
+    //     }
+
+    //     try {
+    //         // Second API call
+    //         const response = await axios.get(`${apiUrl}/users`, {
+    //             headers: { "Content-Type": "application/json" },
+    //         });
+
+    //         if (response?.status !== 200) {
+    //             throw new Error("Failed to fetch user data");
+    //         }
+
+    //         const users = response.data;
+    //         const user = users.find((user) => user.email === email);
+
+    //         if (!user) {
+    //             toast.warn("User not found");
+    //             return;
+    //         }
+
+    //         if (user.password !== password) {
+    //             toast.error("Incorrect password");
+    //             return;
+    //         }
+
+    //         localStorage.setItem("userData", JSON.stringify(user));
+    //         toast.success("Login successful via second API");
+    //         await handleSession(); // Ensure session is handled before showing chat
+    //         setShowChat(true);
+    //     } catch (error) {
+    //         toast.error(`Login error: ${error.message}`);
+    //     }
+    // };
+
     const handleSubmit = async (e) => {
         e.preventDefault();
         try {
+            // Construct the first API URL with query parameters
+            const firstApiResponse = await axios.post(
+                `http://192.46.208.144:8080/experimentalbrain/api/v1/applogin?schooltenant=${schoolID}&uname=${email}&upsswd=${password}`,
+                null, // No data in the request body
+                {
+                    headers: { "Content-Type": "application/json" },
+                }
+            );
+            console.log("🚀 ~ handleSubmit ~ firstApiResponse:", firstApiResponse);
+    
+            if (firstApiResponse?.status === 200) {
+                // If first API returns 200, set showChat to true and exit function
+                setShowChat(true);
+                toast.success("Login successful via first API");
+                return;
+            }
+        } catch (error) {
+            // If there's an error with the first API or status is not 200, proceed to the second API
+            toast.warn("First API failed, checking with second API...");
+        }
+    
+        try {
+            // Second API call
             const response = await axios.get(`${apiUrl}/users`, {
                 headers: { "Content-Type": "application/json" },
             });
+    
             if (response?.status !== 200) {
                 throw new Error("Failed to fetch user data");
             }
+    
             const users = response.data;
             const user = users.find((user) => user.email === email);
+    
             if (!user) {
                 toast.warn("User not found");
                 return;
             }
+    
             if (user.password !== password) {
                 toast.error("Incorrect password");
                 return;
             }
+    
             localStorage.setItem("userData", JSON.stringify(user));
-            toast.success("Login successful");
+            toast.success("Login successful via second API");
             await handleSession(); // Ensure session is handled before showing chat
             setShowChat(true);
         } catch (error) {
             toast.error(`Login error: ${error.message}`);
         }
     };
+    
+
+
     return (
         <Suspense fallback={<Loadding />}>
             <ToastContainer draggable theme="colored" />
@@ -184,9 +296,20 @@ export default function ChatLogin() {
                                     <img className="image" src={experimental_brain_logo} alt="experimental_brain_logo" />
                                     <label htmlFor="chk" aria-label="" className="login-label-sign-in">Login</label>
                                     <input
+                                        id="schoolID"
+                                        name="schoolID"
+                                        type="text"
+                                        // autoComplete="schoolID"
+                                        // required
+                                        value={schoolID}
+                                        onChange={(e) => setSchoolID(e.target.value)}
+                                        placeholder="School ID"
+                                        className="input-class"
+                                    />
+                                    <input
                                         id="email"
                                         name="email"
-                                        type="email"
+                                        type="text"
                                         autoComplete="email"
                                         required
                                         value={email}

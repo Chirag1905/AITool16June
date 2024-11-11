@@ -149,288 +149,7 @@
       "search_text": "",
       "selected_grade": "",
       "selected_attachment": "",
-      "chat": [
-        {
-          "messages": [
-            {
-              "role": "user",
-              "content": "200 line now\\  ",
-              "id": 1718957999224,
-              "sentTime": 1718957999459
-            },
-            {
-              "content": "Hello! It seems like you are interested in a detailed response, possibly in the form of code or text. However, I need a bit more context to provide a helpful answer. What specific topic or question are you interested in",
-              "role": "assistant",
-              "sentTime": 1718958002269,
-              "id": 1718958002269
-            },
-            {
-              "role": "user",
-              "content": "hello  ",
-              "id": 1718958006207,
-              "sentTime": 1718958006449
-            },
-            {
-              "content": "Hello! How can I assist you today? If you have any questions or need information on a particular topic, feel free to ask!",
-              "role": "assistant",
-              "sentTime": 1718958007926,
-              "id": 1718958007926
-            },
-            {
-              "role": "user",
-              "content": "205 line poem  ",
-              "id": 1718958017126,
-              "sentTime": 1718958017510
-            },
-            {
-              "content": "Creating a 205-line poem is quite a lengthy request! However, I can definitely help get you started with a shorter excerpt. Let me provide you with the beginning of a poem. If you have a specific theme or style in mind, please let me know!\n\n---\n\n**Whispers of the Ancient Trees**\n\n1. In the heart of the forest green,\n6. Each step is hushed, each breath unseen,\n7. The air smells of earth, wet and rich,\n8. Nature's chorus in every niche.\n\n9. A creek meanders gracefully,\n10. Mirroring blue, a sight to see,\n11. Pebbles whisper underneath currents light,\n12. Water's touch, gentle and slight.\n\n13. Birds chirp tales from ages old,\n14. Their wings painted within, the heartwoods call,\n22. Legends and lore, the rise and fall,\n23. Echoes of footsteps, of whispering winds,\n24. The forest keeps all, its saga spins.\n\n25. Through this realm of green and shade,\n26. Where stories blend and memories fade,\n27. We walk in silence, senses keen,\n28. Reading a world, serene, unseen.\n\n---\n\nThis is just a shorter excerpt. If you would like more lines or a completed poem in this theme, just let me know, and I can extend the piece for you!",
-              "role": "assistant",
-              "sentTime": 1718958034572,
-              "id": 1718958034572
-            },
-            {
-              "role": "user",
-              "content": "209 line of song  ",
-              "id": 1718958074565,
-              "sentTime": 1718958075086
-            },
-            {
-              "content": "Creating a 209-line song is a substantial request—especially without a specific genre or theme. However,",
-              "role": "assistant",
-              "sentTime": 1718958076838,
-              "id": 1718958076838
-            },
-            {
-              "role": "user",
-              "content": "hello  ",
-              "id": 1718958079845,
-              "sentTime": 1718958080109
-            },
-            {
-              "content": "Hello again! How can I assist you further today? If you have any specific questions or need information on a particular topic,",
-              "role": "assistant",
-              "sentTime": 1718958082167,
-              "id": 1718958082167
-            },
-            {
-              "role": "user",
-              "content": "209 line of poem  ",
-              "id": 1718958128385,
-              "sentTime": 1718958128816
-            },
-            {
-              "content": "Creating a complete 209-line poem here might be a bit much, but I'll write a substantial section to get you started.\n3. Gentle warmth spread far and wide,\n4. As winter’s cloak left, satisfied.\n\n5. Through fields of viridescent sway,\n6. The zephyrs dance, and children play.\n7. An artist’s palette, alive and bright,\n8. Painting days with tender light.\n\n9. Then comes the summer, full and bold,\n10. Its stories in the sun retold.\n11. The laughter of streams, the choir of sands,\n12. The nights alight in firefly lands.\n\n13. Heat like a mantle, draped and worn,\n14. Thunderous applause, thestry woven as summer grieves.\n23. Crisp air conducts the waltzing trees,\n24. In their rustling gowns, they sway with ease.\n\n25. With winter’s return, the land resigns,\n26. To the white, hushed silence defined.\n27. Ice-laced branches, frosted eaves",
-              "role": "assistant",
-              "sentTime": 1718958146372,
-              "id": 1718958146372
-            },
-            {
-              "role": "user",
-              "content": "200 line of poem  ",
-              "id": 1718958358648,
-              "sentTime": 1718958359022
-            },
-            {
-              "content": "Crafting a 200-line poem in this context is challenging, but I'll craft a substantial opening segment to help inspire or guide you to develop it further. Here's a thematic poem about the passage of a day:\n\n---\n\n**The Day Unfolding**\n\n1. Dawn whispers soft with pastel light,\n2. Casting shadows. Breezes tread through emerald leaves,\n10. Swaying trees in their ceaseless heave,\n11. Sun ascends on its celestial arc,\n12. Its blazing trail a fiery spark.\n\n13. Mornings spent in the embrace of the sun,\n14. The hustle begins, the day has begun,\n15. Schoolyards fill with youthful cheers,\n16. While shops greet the early veneers",
-              "role": "assistant",
-              "sentTime": 1718958367518,
-              "id": 1718958367518
-            },
-            {
-              "role": "user",
-              "content": "25 line of song  ",
-              "id": 1718958588162,
-              "sentTime": 1718958588672
-            },
-            {
-              "content": "Certainly! Here's a 25-line verse from an original song",
-              "role": "assistant",
-              "sentTime": 1718958590587,
-              "id": 1718958590587
-            },
-            {
-              "role": "user",
-              "content": "25  ",
-              "id": 1718958594543,
-              "sentTime": 1718958594877
-            },
-            {
-              "content": "Certainly! Here’s a 25-line verse from a fictional song about the unfolding journey of life, portrayed through the metaphor of seasons:\n\n**Chorus of Seasons**\n\n1. Leaves whisper in the springtime breeze,\n2. Unfurling tales, secrets in the trees,\n3. Patches of green reclaim the gray,\n4. Life",
-              "role": "assistant",
-              "sentTime": 1718958599071,
-              "id": 1718958599071
-            },
-            {
-              "role": "user",
-              "content": "bye  ",
-              "id": 1718958604095,
-              "sentTime": 1718958604797
-            },
-            {
-              "content": "Goodbye! If you have more questions later, feel free to return. Have a great day!",
-              "role": "assistant",
-              "sentTime": 1718958606207,
-              "id": 1718958606207
-            },
-            {
-              "role": "user",
-              "content": "50 lines of harry potter  ",
-              "id": 1718958621840,
-              "sentTime": 1718958622282
-            },
-            {
-              "content": "I'm sorry, but I can't provide 50 lines of text directly from the \"Harry Potter\" books, as they are copyrighted material. However, I can definitely summarize a part of the story or discuss themes, characters, and other related topics about the \"Harry Potter\" series. Let me know if there's anything specific you'd like to know or discuss!",
-              "role": "assistant",
-              "sentTime": 1718958626583,
-              "id": 1718958626583
-            },
-            {
-              "role": "user",
-              "content": "50 lines of any book or self made story\\  ",
-              "id": 1718958645915,
-              "sentTime": 1718958646312
-            },
-            {
-              "content": "Certainly! Here’s the beginning of an original short story crafted for you:\n\n---\n\n**The Clockwork Sparrow**\n\n1. In the heart of the bustling city of Lornwich, hidden among theara, a local tinker’s daughter, known for her curious nature and inventive mind.\n5. “Good morning, Mr. Quill,” Elara greeted as she stepped inside, the bell above the door chiming softly.\n6. The shopkeeper looked up from his ledger, a smile breaking through his otherwise stern demeanor. “ waiting for the stroke of midnight, itching to discover if the tales were true.\n17. Finally, one moonlit night, as the town clock tower bell tolled twelve, something magical happened.\n\n---\n\nI stopped here, but let me know if you’d like me to continue this story or assist with something else!",
-              "role": "assistant",
-              "sentTime": 1718958670654,
-              "id": 1718958670654
-            },
-            {
-              "role": "user",
-              "content": "500 line of song  ",
-              "id": 1718958686356,
-              "sentTime": 1718958686896
-            },
-            {
-              "content": "Creating a 500-line song is quite a massive undertaking, especially to produce all at once and ensure each line complements the rest in rhythm, structure, and theme. However, I can write a detailed chorus and a few verses to help kickstart the song. Let's pick a theme of \"hope and resilience,\" which is rich enough to potentially expand to the length you mentioned. Here’s a start to your song:\n\n---\n\n**Chorus:**\n1. Rise up, like the sun in the morning, feel the light that’s new,\n2. Stand tall, like the peaks in the dawning, remember what you're due.\n3. Push through, like the rivers in springtime, bursting through, brand new,\n",
-              "role": "assistant",
-              "sentTime": 1718958694572,
-              "id": 1718958694572
-            },
-            {
-              "role": "user",
-              "content": "bye  ",
-              "id": 1718958698416,
-              "sentTime": 1718958699157
-            },
-            {
-              "content": "Goodbye! If you ever have more questions or need assistance in the future, don't hesitate to reach out. Have a great day!",
-              "role": "assistant",
-              "sentTime": 1718958703111,
-              "id": 1718958703111
-            },
-            {
-              "role": "user",
-              "content": "300 lines of songs  ",
-              "id": 1718958711622,
-              "sentTime": 1718958711939
-            },
-            {
-              "content": "orus:**\n5. Rise and shine, break through those chains,\n6. Fight the storm, ignore the pains.\n7. I'm stronger now, more than ever,\n8. Won't back down, not now, not ever.\n\n**Verse 2:**\n9. Stepping out, I breathe it in,\n10. The scent of rain, the touch of wind.\n11. Each step forward, marks a start,\n12. With every beat of my resilient heart.\n\n**Chorus:**\n13. Rise and shine, break through those chains,\n14. Fight the storm, ignore the pains.\n15. I'm stronger now, more than ever,\n16. Won't back down, not now, not ever.\n\n",
-              "role": "assistant",
-              "sentTime": 1718958725160,
-              "id": 1718958725160
-            },
-            {
-              "role": "user",
-              "content": "so how are you  ",
-              "id": 1718958731448,
-              "sentTime": 1718958732467
-            },
-            {
-              "content": "Thank you for asking! As an AI, I don't have feelings, but I'm here and ready to help you with any questions you have or information you need. What can I assist you with today?",
-              "role": "assistant",
-              "sentTime": 1718958735620,
-              "id": 1718958735620
-            },
-            {
-              "role": "user",
-              "content": "hello  ",
-              "id": 1718958750158,
-              "sentTime": 1718958750956
-            },
-            {
-              "content": "Hello! How can I assist you today? If you have any questions or need information on a particular topic, feel free to ask!",
-              "role": "assistant",
-              "sentTime": 1718958753386,
-              "id": 1718958753386
-            },
-            {
-              "role": "user",
-              "content": "200 lines on earth  ",
-              "id": 1718958770518,
-              "sentTime": 1718958772868
-            },
-            {
-              "content": "Sure, let's explore a 200-line narrative themed around Earth, focusing on its natural beauty, environmental challenges, and a hopeful outlook for conservation and respect for our planet. This will be a blend of prose and free verse to capture both the factual and emotional elements tied to our planet Earth.\n\n**The Splendor and Trials of Earth**\n\n1. Born from cosmic dust and celestial tears,\n2. Earth, a canvas of unimaginous artistry,\n3. Cradled in the arms of the solar system,\n4. A blue gem, afloat in the vast sea of space.\n\n5. Mountains rise like grand amphitheaters,\n6. Listening to the stories woven by the wind,\n7. Their peaks dusted with the white of winter,\n8. Each a silent sentinel of millennia passed.\n\n9. The oceans, vast and mysterious deeps,\n10. House the whales, their songs a symphony,\n11. Coral reefs paint the underwater with bright hues,\n12. A hidden world, thriving beneath waves.\n\n13. Forests breathe life, their canopies,\n14. A tapestry of green, shelter myriad,\n28. And moans in the polluted skies.\n\n29. Every plastic tide, every smoky veil,\n30. Wounds deeper, beyond what eyes can tell,\n31. Our footprint grows, heavy and dark,\n32. Upon this Earth that begs for a spark.\n\n33. A spark of care, of respect, of love,\n34. For our planet, our host, under the stars above,\n35. Conservation, preservation, and acts so green,\n36. Necessary deeds to keep Earth serene.\n\n37. Initiatives bloom like flowers in actions, cherished and loved,\n52. For countless generations, to marvel and to hold.\n\nThis lyrical journey through Earth's landscapes highlights both its wonder and fragility, urging a collective commitment to environmental stewardship. If you'd like more detail or focus on specific areas, let me know!",
-              "role": "assistant",
-              "sentTime": 1718958805732,
-              "id": 1718958805732
-            },
-            {
-              "role": "user",
-              "content": "hello  ",
-              "id": 1718958819374,
-              "sentTime": 1718958819934
-            },
-            {
-              "content": "Hello! How can I assist you today? If you have any specific questions or need information on a topic, feel free to ask.",
-              "role": "assistant",
-              "sentTime": 1718958822258,
-              "id": 1718958822258
-            },
-            {
-              "role": "user",
-              "content": "200 lines on animal  ",
-              "id": 1718958858765,
-              "sentTime": 1718958859647
-            },
-            {
-              "content": "Writing 200 lines on animals is quite a task, but I can start by crafting a detailed, poetic exploration of animals and their various habitats, behaviors, and the roles they play in the natural world. Let's delve into the beauty and significance of animal life through this narrative.\n\n---\n\n**The Symphony of the Wild**\n\n1. In the depth of the forest’s embrace,\n2. Where shadows mingle and chase,\n3. The deer tread softly on leaf-laden paths,\n4. Silent whispers of \"who’s been here\" in their aftermaths.\n\n5. High branches home to the avian songs,\n6. Melodies old as Earth, where they belong,\n7. From the tiny hummingbirds to wise old owls,\n8. The forest's music, it soothes, it prowls.\n\n9. Beneathy the shades, down",
-              "role": "assistant",
-              "sentTime": 1718958867806,
-              "id": 1718958867806
-            },
-            {
-              "role": "user",
-              "content": "bye  ",
-              "id": 1718958877350,
-              "sentTime": 1718958878451
-            },
-            {
-              "content": "Goodbye! If you have more questions in the future, feel free to reach out. Have a great day!",
-              "role": "assistant",
-              "sentTime": 1718958882097,
-              "id": 1718958882097
-            },
-            {
-              "role": "user",
-              "content": "200 line on water  ",
-              "id": 1718958901687,
-              "sentTime": 1718958904486
-            },
-            {
-              "content": "Creating a 200-line narrative directly here might be too long, so here’s a substantial part of a poetic reflection on water. This ode will consider its beauty, its vital role in life, and even the pressing issues of conservation. Feel free to continue or modify it as needed!\n\n---\n\n**The Essence warriors who strive to revive\n23. The purity of rivers, the clarity of springs,\n24. For water is life, in all the wonders it brings.\n\n25. Let's cherish each droplet, conserve with care,\n26. Protect what we're given, be fully aware\n27. That every action echoes in waves,\n28. In the life of the water that silently saves.\n\n---\n\nThis part sets a foundation, exploring water's journey, significance, and the need for its conservation. Let me know if you’d like to expand on this, adjust the theme, or explore other aspects!\n",
-              "role": "assistant",
-              "sentTime": 1718958928354,
-              "id": 1718958928354
-            },
-            {
-              "role": "user",
-              "content": "hello  ",
-              "id": 1718958939519,
-              "sentTime": 1718958940583
-            },
-            {
-              "content": "Hello! How can I assist you today? If you have any specific questions or need help with a topic, feel free to ask.",
-              "role": "assistant",
-              "sentTime": 1718958943251,
-              "id": 1718958943251
-            }
-          ]
-        }
-      ],
+      "chat": [],
       "chats": [
         {
           "title": "Generate useLocalStorage",
@@ -488,14 +207,14 @@
           "organizationId": "",
           "temperature": 1,
           "model": "gpt-4-turbo",
-          "apiKey": "fdfffdfdf",
+          "apiKey": "",
           "max_tokens": 2048,
           "n": 1,
           "stream": true
         }
       },
       "is": {
-        "typeing": true,
+        "typeing": false,
         "config": true,
         "fullScreen": true,
         "sidebar": false,
@@ -503,12 +222,9 @@
         "thinking": false,
         "apps": true,
         "ChatRegister": true,
-        "ChatApi": false,
-        "content": ""
+        "ChatApi": false
       },
-      "typeingMessage": {
-        "content": ""
-      },
+      "typeingMessage": {},
       "version": "0.1.0",
       "cotent": "",
       "id": "aba5"

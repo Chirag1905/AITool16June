@@ -33,7 +33,7 @@ export default function ChatRegister() {
 
     useEffect(() => {
         handleListings();
-    }, []);
+    }, [setListings]);
 
     const handleRegister = async (e) => {
         e.preventDefault();

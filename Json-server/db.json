@@ -1,22 +1,28 @@
 {
   "users": [
     {
-      "role": "Admin",
-      "email": "utkarsh@gmail.com",
-      "password": "123",
-      "id": "2337"
-    },
-    {
       "id": "aba5",
       "email": "chirag@gmail.com",
       "password": "123",
       "role": "Admin"
+    },
+    {
+      "email": "utkarsh@gmail.com",
+      "password": "123",
+      "role": "Admin",
+      "id": "OCWeL-d"
+    },
+    {
+      "email": "saloni@gmail.com",
+      "password": "123",
+      "role": "User",
+      "id": "zI4W2zP"
     }
   ],
   "api": [
     {
-      "id": 1,
-      "apiKey": "fdfffdfdf"
+      "apiKey": "fff",
+      "id": 1
     }
   ],
   "sessions": [
@@ -482,7 +488,7 @@
           "organizationId": "",
           "temperature": 1,
           "model": "gpt-4-turbo",
-          "apiKey": "",
+          "apiKey": "fdfffdfdf",
           "max_tokens": 2048,
           "n": 1,
           "stream": true
@@ -490,13 +496,13 @@
       },
       "is": {
         "typeing": true,
-        "config": false,
+        "config": true,
         "fullScreen": true,
-        "sidebar": true,
+        "sidebar": false,
         "inputing": false,
         "thinking": false,
         "apps": true,
-        "ChatRegister": false,
+        "ChatRegister": true,
         "ChatApi": false,
         "content": ""
       },

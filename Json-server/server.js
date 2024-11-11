@@ -1,15 +1,19 @@
-const jsonServer = require('json-server');
+const jsonServer = require("json-server");
 const server = jsonServer.create();
-const router = jsonServer.router('db.json');
+const router = jsonServer.router("db.json");
 const middlewares = jsonServer.defaults();
 
 // Add custom middleware to set CORS headers
 server.use((req, res, next) => {
-  res.header('Access-Control-Allow-Origin', '*','http://localhost:5173','http://localhost:5174');
-  res.header('Access-Control-Allow-Methods', 'GET, POST, PUT, DELETE', 'PATCH');
-  res.header('Access-Control-Allow-Headers', 'Origin, X-Requested-With, Content-Type, Accept');
-  if (req.method === 'OPTIONS') {
-    res.sendStatus(200);
+  res.header("Access-Control-Allow-Origin", "*");
+  res.header("Access-Control-Allow-Methods", "GET, POST, PUT, DELETE, PATCH"); // Use a single comma-separated string
+  res.header(
+    "Access-Control-Allow-Headers",
+    "Origin, X-Requested-With, Content-Type, Accept"
+  );
+
+  if (req.method === "OPTIONS") {
+    res.sendStatus(200); // Handle pre-flight requests
   } else {
     next();
   }

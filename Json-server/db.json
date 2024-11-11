@@ -119,7 +119,7 @@
           "organizationId": "",
           "temperature": 1,
           "model": "gpt-4-turbo",
-          "apiKey": "",
+          "apiKey": "fff",
           "max_tokens": 2048,
           "n": 1,
           "stream": true
@@ -127,13 +127,13 @@
       },
       "is": {
         "typeing": true,
-        "config": false,
+        "config": true,
         "fullScreen": true,
         "sidebar": false,
         "inputing": true,
         "thinking": false,
         "apps": true,
-        "ChatRegister": false,
+        "ChatRegister": true,
         "ChatApi": false
       },
       "typeingMessage": {
@@ -215,13 +215,13 @@
       },
       "is": {
         "typeing": false,
-        "config": true,
+        "config": false,
         "fullScreen": true,
-        "sidebar": false,
+        "sidebar": true,
         "inputing": false,
         "thinking": false,
         "apps": true,
-        "ChatRegister": true,
+        "ChatRegister": false,
         "ChatApi": false
       },
       "typeingMessage": {},

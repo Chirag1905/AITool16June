@@ -14,6 +14,7 @@
   "devDependencies": {
     "@babel/core": "^7.16.0",
     "@babel/preset-env": "^7.16.4",
+    "@types/json-server": "^0.14.7",
     "babel-loader": "^8.2.3",
     "file-loader": "^6.2.0"
   },
